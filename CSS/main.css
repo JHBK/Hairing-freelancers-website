@@ -1,0 +1,69 @@
+
+.logo {
+	
+	margin-left: 26px;
+}
+
+.logo a{
+	text-decoration: none;
+	
+	font-size: 34px;
+	
+	color: red;
+	
+	
+	background: re;
+	
+	font-family: cursive;
+
+}
+
+
+
+.slider_area img{   
+	
+	width: 100%;height: 100
+	
+	}
+	
+	
+	
+	
+	
+.kcorner_area{
+
+	min-height:300px;
+
+	background:#ACFA58
+}
+
+.ktext{
+
+	margin-top: 100px;
+}
+.ktext h1{
+	text-align: center;}
+.ktext p{display: block;
+float: right;
+
+margin-right: 247px;
+text-align: center;
+width: 58%;}
+
+
+.footer_area {
+	background: #0C0C0D;
+}
+.copy {}
+.copy p {
+	margin-top: 20px;
+	/* text-align: center; */
+	color: #ffff;
+	font-size: 17px;
+}
+
+ul#social_profiles{padding-top: 10px;}
+ul#social_profiles li{display:inline}
+ul#social_profiles li a{margin-left:5px;color:#BEBEBE;border:1px solid #BEBEBE;border-radius:50px;height:26px;width:26px;text-align:center;display:inline-block}
+ul#social_profiles li a:hover{color:#B5DEF0;border:1px solid #B5DEF0;}
+ul#social_profiles li a:hover{}

@@ -1,0 +1,116 @@
+
+.logo {
+    /* margin-top: 35px; */
+    margin-left: 26px;
+}
+.logo a{text-decoration: none;
+    font-size: 34px;
+    color: red;
+    /* border-radius: 7%; */
+    background: re;
+    font-family: cursive;}
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    background: #45b39d;
+}
+
+body{
+    background:  #5d6d7e;
+}
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 33.3%;
+    padding-top:0px;
+    padding-right: 8px;
+    padding-bottom:8px;
+    padding-left:8px;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+    background-color:  #2e86c1 ;
+    color: white;
+    font-size: 25px;
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* Grey list item */
+ .grey {
+    background-color:  black;
+    font-size: 40px;
+    padding-bottom: 30px;
+    color:  #e74c3c ;
+    font-weight: bold;
+}
+
+/* The "Hire US" button */
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+.ptext h1{text-align:center;padding-top: 60px;padding-bottom: 30px; }
+
+
+.price_area {
+  height: 500px;
+}
+.oft_area {
+    height: 100px;
+    /* width: 1280px; */
+    /* padding-right: 94px; */
+}
+.oftext {
+
+    float: left;
+    display: block;
+    margin-left: -56px;
+}
+.oftext p {
+    font-size: 22px;
+    color: white;
+    text-align: justify;
+    text-align: center;
+}
+
+#rd{
+     background:     #abebc6 ;
+     color: black;
+     font-weight: bold;
+}

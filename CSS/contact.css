@@ -1,0 +1,125 @@
+.logo {
+	/* margin-top: 35px; */
+	margin-left: 26px;
+}
+.logo a{text-decoration: none;
+	font-size: 34px;
+	color: red;
+	/* border-radius: 7%; */
+
+	font-family: cursive;}
+ul#social_profiles{padding-top: 10px;}
+ul#social_profiles li{display:inline}
+ul#social_profiles li a{margin-left:5px;color:#BEBEBE;border:1px solid #BEBEBE;border-radius:50px;height:26px;width:26px;text-align:center;display:inline-block}
+ul#social_profiles li a:hover{color:#B5DEF0;border:1px solid #B5DEF0;}
+ul#social_profiles li a:hover{}
+	
+.hp_area {
+	height: 600px;
+	margin-top: 50px;
+
+
+	background-image: url("../Images/b.png");
+	background-size: 100%,100%;
+
+	color: white;
+
+}
+	 
+
+
+
+
+.hp_area h1 {
+	text-align: right;
+	font-weight: bold;
+}
+.hp_area p{}
+.hp_area img {
+	width: 536px;
+	height: 352px;
+	/* float: right; */
+	margin-left: 700px;
+	/* display: block; */
+	opacity: 0.8;
+
+}
+
+.had {
+	
+	font-size: 20px;
+}
+
+h2{
+margin-left:900px; 	
+
+
+}
+.had p{
+margin-left:850px;
+	
+}
+label{
+	font-weight: bold;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	background-color:  #e74c3c ;
+
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 450px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	background-color:  #0e6655 ;
+}
+
+/* Add a background color and some padding around the form */
+.cft {
+	border-radius: 5px;
+	background-color:  #2ecc71 ;
+	padding: 20px;
+}
+section{
+	background-color: black
+}
+.cft_area {
+	height: 600px;
+	
+}
+.c_text{}
+.c_text h1 {
+	text-align: center;
+}
+.footer_area {
+	background: #0C0C0D;
+	/* position: fixed; */
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+}
+.copy {}
+.copy p {
+	margin-top: 20px;
+	/* text-align: center; */
+	color: #ffff;
+	font-size: 17px;
+}

@@ -1,0 +1,24 @@
+h1{
+
+	
+	padding-top: 250px;
+	color: white;
+	text-align: center;
+	
+	text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+footer{
+
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+body{
+
+	background-image: url("../Images/d.jpg");
+	background-size: 100%,100%;
+
+}
