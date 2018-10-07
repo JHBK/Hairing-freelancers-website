@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<head>
+
+        <meta charset="utf-8">
+
+        <title>Xenon Tech</title>
+        
+		
+        <link rel="stylesheet" href="CSS/project.css">
+ 	    
+ 	    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+
+ 	    <link rel="stylesheet" type="text/css" href="CSS/animation1.css">
+  		
+  		<link rel="stylesheet" href="CSS/font-awesome.min.css">
+  
+  		<script type="text/javascript" src="javascript/jquery.min.js"></script>
+		
+		<script type="text/javascript" src="javascript/jquery.mixitup.min.js"></script>
+		
+		<script type="text/javascript">
+			
+			$(function () {
+		
+				var filterList = {
+		
+					init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+					
+					$('#portfoliolist').mixItUp({
+  					
+  					selectors: {
+    			  
+    			  target: '.portfolio',
+    			  
+    			  filter: '.filter'	
+    		  		
+    		  		},
+    		  
+    		  	load: {
+      		  
+      		  filter: '.app'  
+      				
+      				}     
+					
+					});								
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+		
+		
+		});	
+	
+	</script>
+  
+      
+</head>
+
+
+<body>
+        
+	
+						
+
+	 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+        <div class="logo" style="float:left;"> 
+		            
+    		<a href="index.html">XENON TECH</a>
+            
+        </div>
+
+
+
+
+       
+	   
+        <div class="container">
+          
+           
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                
+                <ul class="nav navbar-nav">
+                
+                    <li class="active">
+                
+                        <li><a href="index.html">HOME </a></li>
+                
+                        <li><a href="project.html"> OUR PROJECTS</a></li>
+                
+                        <li><a href="offer.html"> OFFERINGS</a></li>
+              
+                        <li><a href="pay.html">HIRE US</a></li>
+              
+                        <li><a href="about.html"> OUR TEAM</a></li>
+						<li><a href="contact.html">CONTACT US</a></li>
+						
+              
+                </ul>
+
+
+               <ul id="social_profiles" style="float:right">
+              
+              		<li><a href=""><i class="fa fa-twitter"></i></a></li>
+              	
+              		<li><a href=""><i class="fa fa-facebook"></i></a></li>
+              
+              		<li><a href=""><i class="fa fa-dribbble"></i></a></li>
+              
+            	</ul>
+            
+            </div>
+            
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+
+
+    </nav>
+
+	 <section class="ptext_area">
+
+		 <div class="container ptext">
+
+			 <div class="row">
+				 <div class="col-md-a12">
+
+					 <div class="pat">
+
+						 <h1>About our projects</h1>
+						 <p>We are very much experienced with different frameworks such as Django,Laravel and wordpress.We have worked with almost all the big companies of Bangladesh. here is few demonstrations of our works.</p>
+
+					 </div>
+
+
+				 </div>
+
+
+			 </div>
+
+		 </div>
+
+
+
+
+	 </section>
+		
+	<section class="port_show_area">
+		
+		<div class="ctn">
+
+			<ul id="filters" class="clearfix">
+				
+				<li><span class="filter active" data-filter=".app, .card, .icon">All</span></li>
+			
+				<li><span class="filter" data-filter=".app">Laravel</span></li>
+			
+				<li><span class="filter" data-filter=".card">Wordpress</span></li>
+		
+				<li><span class="filter" data-filter=".icon">Django</span></li>
+			
+			</ul>
+
+		<div id="portfoliolist">
+			
+			<div class="portfolio app" data-cat="app">
+			
+				<div class="portfolio-wrapper">			
+			
+					<img src="Images/portfolios/app/1.png" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">Visual Infography</a>
+			
+							<span class="text-category">APP</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+				</div>
+			
+			</div>		
+			
+			
+			
+			<div class="portfolio card" data-cat="card">
+			
+				<div class="portfolio-wrapper">			
+			
+					<img src="Images/portfolios/card/1.jpg" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">Typography Company</a>
+			
+							<span class="text-category">Business card</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+				</div>
+			
+			</div>	
+						
+			
+			<div class="portfolio app" data-cat="app">
+			
+				<div class="portfolio-wrapper">
+			
+					<img src="Images/portfolios/app/2.png" alt="" />
+			 
+			 		<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">Weatherette</a>
+			
+							<span class="text-category">APP</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+				</div>
+			
+			</div>			
+			
+			<div class="portfolio card" data-cat="card">
+			
+				<div class="portfolio-wrapper">			
+			
+					<img src="Images/portfolios/card/4.jpg" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">BMF</a>
+			
+							<span class="text-category">Business card</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+				</div>
+			
+			</div>	
+			
+			
+																																										
+			
+			<div class="portfolio app" data-cat="app">
+			
+				<div class="portfolio-wrapper">			
+			
+					<img src="Images/portfolios/app/3.png" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">Graph Plotting</a>
+			
+							<span class="text-category">APP</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+				</div>
+			
+			</div>														
+			
+			
+			
+			<div class="portfolio app" data-cat="app">
+			
+				<div class="portfolio-wrapper">			
+			
+					<img src="Images/portfolios/app/4.png" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">Graph Plotting</a>
+			
+							<span class="text-category">APP</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+
+				</div>
+			
+			</div>	
+			
+			
+			
+			<div class="portfolio card" data-cat="card">
+			
+				<div class="portfolio-wrapper">			
+			
+					<img src="Images/portfolios/card/2.jpg" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">QR Quick Response</a>
+			
+							<span class="text-category">Business card</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+				</div>
+			
+			</div>				
+
+																	
+
+														
+			
+			<div class="portfolio icon" data-cat="icon">
+			
+				<div class="portfolio-wrapper">			
+			
+					<img src="Images/portfolios/icon/4.jpg" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">Domino's Pizza</a>
+			
+							<span class="text-category">Icon</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+				</div>
+			
+			</div>							
+
+																											
+
+			<div class="portfolio icon" data-cat="icon">
+			
+				<div class="portfolio-wrapper">			
+			
+					<img src="Images/portfolios/icon/1.jpg" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">Instagram</a>
+			
+							<span class="text-category">Icon</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+
+				</div>
+			
+			</div>				
+			
+																		
+
+			<div class="portfolio icon" data-cat="icon">
+			
+				<div class="portfolio-wrapper">
+			
+					<img src="Images/portfolios/icon/2.jpg" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">Scoccer</a>
+			
+							<span class="text-category">Icon</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+				</div>
+			
+
+			</div>																																																																
+			
+			<div class="portfolio icon" data-cat="icon">
+				
+				<div class="portfolio-wrapper">			
+				
+					<img src="Images/portfolios/icon/3.jpg" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">Sandwich</a>
+			
+							<span class="text-category">Icon</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+				</div>
+			
+			</div>																								
+			
+
+			<div class="portfolio card" data-cat="card">
+			
+				<div class="portfolio-wrapper">			
+			
+					<img src="Images/portfolios/card/3.jpg" alt="" />
+			
+					<div class="label">
+			
+						<div class="label-text">
+			
+							<a class="text-title">Reality</a>
+			
+							<span class="text-category">Business card</span>
+			
+						</div>
+			
+						<div class="label-bg"></div>
+			
+					</div>
+			
+				</div>
+			
+			</div>	
+	
+		</div>
+		
+	</div>
+
+
+	</section>
+
+
+
+
+
+
+
+
+	 <footer class="footer_area">
+            
+            <div class="container footer"> 
+            
+                <div class="row"> 
+            
+                    <div class="col-md-6"> 
+            
+                    <div class="copy"> 
+            
+                    <p>&copy; Xenon Tech, ALL RIGHTS RESERVED 2018 </p>
+            
+                    </div>
+                    
+            	</div>
+             
+            </div>
+
+          </div>      
+        
+        </footer>
+	
+	
+</body>
+
+
+</html>
+		
